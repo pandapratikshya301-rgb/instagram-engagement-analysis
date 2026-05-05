@@ -124,6 +124,96 @@ Engage with users through comments and calls-to-action to boost visibility and r
 
 ---
 
+## ▶️ How to Run the Project
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/instagram-engagement-analysis.git
+cd instagram-engagement-analysis
+```
+
+---
+
+### 2. Install Required Libraries
+
+Make sure Python is installed (version 3.8+ recommended)
+
+```bash
+pip install pandas numpy matplotlib sqlite3
+```
+
+---
+
+### 3. Add Dataset
+
+* Download the dataset from Kaggle
+* Place all `.csv` files inside the project folder (or `/content/` if using Google Colab)
+
+---
+
+### 4. Run the Notebook
+
+#### 👉 Option A: Using Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+* Open `Instagram_Analysis.ipynb`
+* Run all cells step by step
+
+#### 👉 Option B: Using Google Colab
+
+* Upload the notebook to Colab
+* Upload dataset files
+* Run all cells
+
+---
+
+### 5. Output
+
+* Graphs will be displayed:
+
+  * Best Posting Hour
+  * Best Posting Day
+  * Content Type Performance
+  * Follower Growth
+
+* Console will print:
+
+  * Best posting time
+  * Best day
+  * Best content type
+
+---
+
+## ⚠️ Important Notes
+
+* Ensure dataset file names match expected names
+* If graphs do not appear, add:
+
+```python
+%matplotlib inline
+```
+
+* Make sure date columns are correctly parsed
+
+---
+
+## 📦 Optional (Advanced)
+
+To run via Python script:
+
+```bash
+python analysis.py
+```
+
+(Only if you convert notebook to script)
+
+
 ## 📊 Sample Outputs
 
 <img width="763" height="606" alt="Screenshot 2026-05-05 205457" src="https://github.com/user-attachments/assets/17312080-6d70-45a5-bdc5-5e7a94399210" />
