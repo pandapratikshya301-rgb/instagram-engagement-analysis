@@ -27,9 +27,7 @@ This project analyzes Instagram data to uncover patterns in user engagement, pos
 
 ## 📁 Dataset
 
-* Source: [Kaggle Instagram Dataset](https://www.kaggle.com/datasets/bhanupratapbiswas/instgram
-
-)
+* Source:https://www.kaggle.com/datasets/bhanupratapbiswas/instgram
 * Contains data on:
 
   * Users
