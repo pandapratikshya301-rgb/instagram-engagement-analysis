@@ -57,6 +57,30 @@ This project analyzes Instagram data to uncover patterns in user engagement, pos
 
 ---
 
+📁 Project Structure
+instagram-engagement-analysis/
+│
+├── notebooks/
+│   └── Instagram_Data_Analysis.ipynb
+├── README.md                       
+│
+├── images/
+│   ├── best_posting_hour.png
+│   └── best_posting_day.png
+|
+├── data/
+│   ├── users.csv
+│   ├── photos.csv
+│   ├── likes.csv
+│   ├── comments.csv
+│   ├── follows.csv
+│   ├── tags.csv
+│   └── photo_tags.csv                  
+│
+├── insta_lite.db                   
+
+---
+
 ## 📈 Key Metrics
 
 ### 🔹 Engagement Rate
